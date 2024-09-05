@@ -1,0 +1,113 @@
+<mxfile host="app.diagrams.net" modified="2024-04-23T08:33:39.655Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="ly1YcBQxwkPjUwiuaxmN" version="24.2.8" type="device">
+  <diagram name="Страница — 1" id="UAKydxDwrPHQjejs2Lf0">
+    <mxGraphModel dx="1155" dy="661" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7HXvGAVmNSlH0s1QHAAn-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7HXvGAVmNSlH0s1QHAAn-1" target="7HXvGAVmNSlH0s1QHAAn-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="507" y="275" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7HXvGAVmNSlH0s1QHAAn-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7HXvGAVmNSlH0s1QHAAn-1" target="7HXvGAVmNSlH0s1QHAAn-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="288" y="271" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7HXvGAVmNSlH0s1QHAAn-1" value="Методы оптимизации" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="260" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7HXvGAVmNSlH0s1QHAAn-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7HXvGAVmNSlH0s1QHAAn-2" target="7HXvGAVmNSlH0s1QHAAn-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7HXvGAVmNSlH0s1QHAAn-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7HXvGAVmNSlH0s1QHAAn-2" target="7HXvGAVmNSlH0s1QHAAn-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7HXvGAVmNSlH0s1QHAAn-2" value="Методы оптимизации функций" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="213" y="312" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7HXvGAVmNSlH0s1QHAAn-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7HXvGAVmNSlH0s1QHAAn-3" target="7HXvGAVmNSlH0s1QHAAn-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="515" y="353" />
+              <mxPoint x="515" y="353" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7HXvGAVmNSlH0s1QHAAn-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7HXvGAVmNSlH0s1QHAAn-3" target="7HXvGAVmNSlH0s1QHAAn-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7HXvGAVmNSlH0s1QHAAn-3" value="Методы оптимизации&lt;div&gt;функционалов&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="432" y="312" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7HXvGAVmNSlH0s1QHAAn-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7HXvGAVmNSlH0s1QHAAn-4" target="7HXvGAVmNSlH0s1QHAAn-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="124" y="407" />
+              <mxPoint x="217" y="407" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7HXvGAVmNSlH0s1QHAAn-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7HXvGAVmNSlH0s1QHAAn-4" target="7HXvGAVmNSlH0s1QHAAn-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7HXvGAVmNSlH0s1QHAAn-4" value="Безуслованя оптимизация" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="49" y="369" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7HXvGAVmNSlH0s1QHAAn-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7HXvGAVmNSlH0s1QHAAn-5" target="7HXvGAVmNSlH0s1QHAAn-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="336" y="415" />
+              <mxPoint x="515" y="415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7HXvGAVmNSlH0s1QHAAn-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7HXvGAVmNSlH0s1QHAAn-5" target="7HXvGAVmNSlH0s1QHAAn-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7HXvGAVmNSlH0s1QHAAn-5" value="Условная оптимизация" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="261" y="369" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7HXvGAVmNSlH0s1QHAAn-6" value="Вариационное исчисление" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="369" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7HXvGAVmNSlH0s1QHAAn-7" value="Оптимальное управление" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="617" y="369" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7HXvGAVmNSlH0s1QHAAn-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7HXvGAVmNSlH0s1QHAAn-8" target="7HXvGAVmNSlH0s1QHAAn-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7HXvGAVmNSlH0s1QHAAn-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7HXvGAVmNSlH0s1QHAAn-8" target="7HXvGAVmNSlH0s1QHAAn-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="515" y="469" />
+              <mxPoint x="622" y="469" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7HXvGAVmNSlH0s1QHAAn-8" value="Нелинейное программирование" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="430" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7HXvGAVmNSlH0s1QHAAn-9" value="Квадратичное уравнение" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="617" y="430" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7HXvGAVmNSlH0s1QHAAn-10" value="Выпуклое программирование" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="545" y="488.5" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7HXvGAVmNSlH0s1QHAAn-11" value="Линейное программирование" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="261" y="488.5" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7HXvGAVmNSlH0s1QHAAn-12" value="Методы нахождения минимума функции многих переменный" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="142" y="417" width="150" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="7HXvGAVmNSlH0s1QHAAn-13" value="Методы нахождения минимума одной переменной" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="478" width="150" height="51" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
