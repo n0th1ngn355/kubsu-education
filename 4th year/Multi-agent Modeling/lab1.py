@@ -9,7 +9,7 @@ complexity = (1, 100)
 n, m = 4, 40
 
 class Agent:
-  def init(self, id):
+  def __init__(self, id):
     self.id = id
     self.queue = []
     self.tek_time = 0
@@ -22,15 +22,15 @@ class Agent:
     self.count += 1
     self.time += k
   
-  def str(self):
+  def __str__(self):
     return self.time
-  def lt(self, other):
+  def __lt__(self, other):
     return self.tek_time < other.tek_time
 
-  def eq(self, other):
+  def __eq__(self, other):
     return self.tek_time == other.tek_time
 
-  def gt(self, other):
+  def __gt__(self, other):
     return self.tek_time > other.tek_time
 
 agents = np.array([Agent(i) for i in range(n)])
