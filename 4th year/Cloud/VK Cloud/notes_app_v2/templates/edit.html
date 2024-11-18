@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html data-bs-theme="dark">
+<head>
+    <title>Edit Note</title>
+    <link href="../static/bootstrap.css" rel="stylesheet">
+    <script src="../static/marked.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .note-container {
+            margin: 50px auto;
+            max-width: 800px;
+            padding: 20px;
+        }
+        .note-title {
+            font-size: 2rem;
+            font-weight: bold;
+            border: none;
+            outline: none;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        .note-divider {
+            border: none;
+            border-top: 1px solid #ccc;
+            margin: 20px 0;
+        }
+        .note-content {
+            border: none;
+            outline: none;
+            width: 100%;
+            height: 300px;
+            font-size: 1.2rem;
+            line-height: 1.6;
+            white-space: pre-wrap;
+        }
+        .preview {
+            margin-top: 20px;
+            padding: 10px;
+            /* background-color: #f8f9fa; */
+            /* border: 1px solid #ddd; */
+        }
+    </style>
+</head>
+<body>
+    <div class="note-container">
+        <input id="note-id" hidden="true" value="{{ note.id if note else '' }}">
+        <input id="note-title" class="form-control note-title" placeholder="Note Title" value="{{ note.title if note else '' }}">
+        <hr class="note-divider">
+        <div class="row">
+            <div class="col">
+                <textarea id="note-content" class="form-control note-content" placeholder="Write your content here...">{{ note.content if note else '' }}</textarea>
+            </div>
+            <div id="preview" class="preview d-none col"></div>
+        </div>
+        <button class="btn btn-secondary mt-3" onclick="(function(){window.location.href = '/';})();">Cancel</button>
+        <button class="btn btn-success mt-3" onclick="saveNote()">Save</button>
+        <button class="btn btn-primary mt-3" onclick="togglePreview()">Toggle Markdown</button>
+    </div>
+
+
+    <script>
+        const content = document.getElementById('note-content');
+        const preview = document.getElementById('preview');
+        content.addEventListener('input', () => {
+            const markdownText = content.value;
+            preview.innerHTML = marked.parse(markdownText);
+        });
+        function togglePreview() {
+            // preview.innerHTML = "Markdown:<br>"+marked.parse(content);
+            preview.classList.toggle('d-none');
+        }
+
+        function saveNote() {
+            const id = document.getElementById('note-id').value;
+            const title = document.getElementById('note-title').value;
+            const content = document.getElementById('note-content').value;
+
+            fetch('/save', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ id, title, content }),
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    alert('Note saved successfully!');
+                    window.location.href = '/';
+                } else {
+                    alert('Failed to save note');
+                }
+            });
+        }
+    </script>
+</body>
+</html>
