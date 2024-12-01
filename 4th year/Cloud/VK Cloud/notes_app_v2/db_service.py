@@ -6,13 +6,13 @@ import os
 load_dotenv()
 
 app = Flask(__name__)
-DB_USERNAME=os.getenv('DB_USERNAME')
-DB_PASSWORD=os.getenv('DB_PASSWORD')
-DB_HOST=os.getenv('DB_HOST')
-DB_NAME=os.getenv('DB_NAME')
-db_uri = f'postgresql://{DB_USERNAME}:{DB_PASSWORD}@{DB_HOST}:5432/{DB_NAME}'
+# DB_USERNAME=os.getenv('DB_USERNAME')
+# DB_PASSWORD=os.getenv('DB_PASSWORD')
+# DB_HOST=os.getenv('DB_HOST')
+# DB_NAME=os.getenv('DB_NAME')
+# db_uri = f'postgresql://{DB_USERNAME}:{DB_PASSWORD}@{DB_HOST}:5432/{DB_NAME}'
 # print(db_uri)
-app.config['SQLALCHEMY_DATABASE_URI'] = db_uri
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///notes.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
